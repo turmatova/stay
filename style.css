@@ -28,6 +28,9 @@ a {
 h1{
   font-size: 25px;
 }
+h2{
+  color: #777777;
+}
 #jumbo {
   padding: 70px 0;
   background: #f5f1f1;
