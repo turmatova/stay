@@ -25,6 +25,9 @@ a {
 }
 /* NEW */
 /* JUMBO */
+h1{
+  font-size: 25px;
+}
 #jumbo {
   padding: 70px 0;
   background: #f5f1f1;
