@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: "Inter" san-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* NEW */
+#new {
+  padding: 20px 0;
+}
+.new {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 30%;
+    height: 20%;
+  }
+}
+/* NEW */
+/* JUMBO */
+#jumbo {
+  padding: 70px 0;
+  background: #f5f1f1;
+}
+.jumbo-1{
+  position: relative;
+  text-align: start;
+  h1{
+    position: absolute;
+    right: 50%;
+    text-align: start;
+    color: #777777;
+  }
+}
+.jumbo {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.jumbo-text{
+  h2{
+    padding: 20px 0 60px 0;
+font-family: Bebas Neue Cyrillic;
+font-size: 64px;
+font-weight: 400;
+  }
+}
+.jumbo-nav {
+  padding: 10px 0;
+  display: flex;
+  position: relative;
+
+  img{
+  border-radius:15px 0 15px;
+position: absolute;
+left: -30px;
+top: 0;
+  }
+  h5 {
+ position: absolute;
+right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F53A20;
+  }
+}
+.jumbo-nav3 {
+  padding: 10px 0;
+  display: flex;
+  position: relative;
+
+  img{
+  border-radius:15px 0 15px;
+position: absolute;
+left: -28px;
+top: 0;
+  }
+  h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d932c;
+    position: absolute;
+    right: 20px;
+    
+
+  }
+}
+.jumbo-card {
+  padding: 0 0 30px 30px;
+  border-radius: 15px;
+  background: white;
+  color: #101010;
+  width: 400px;
+  height: 403px;
+position: relative;
+ p {
+    span {
+      color: #777777;
+    }
+  }
+}
+.jumbo-card3 {
+  padding: 0 0 30px 30px;
+  position: relative;
+  border-radius: 15px;
+  background: white;
+  color: #101010;
+  width: 400px;
+  height: 463px;
+  a {
+    ion-icon {
+      position: absolute;
+      bottom: 150px;
+      right: 50px;
+      color: black;
+      width: 35px;
+      height: 35px;
+    }
+  }
+  p {
+    padding: 10px 0;
+    span {
+      color: #777777;
+    }
+  }
+  button {
+    position: relative;
+    color: white;
+    background: #f57520;
+    padding: 10px 140px;
+    border: none;
+    border-radius: 5px;
+    a {
+      ion-icon {
+        position: absolute;
+        bottom: 8px;
+        right: 199px;
+        color: white;
+        width: 17px;
+        height: 20px;
+      }
+    }
+  }
+}
+/* JUMBO */
